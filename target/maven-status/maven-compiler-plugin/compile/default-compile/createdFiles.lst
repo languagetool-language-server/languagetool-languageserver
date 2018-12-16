@@ -1,9 +1,0 @@
-org/languagetool/lsp/LanguageToolLanguageServer$1.class
-org/languagetool/lsp/DocumentPositionCalculator.class
-org/languagetool/lsp/NoOpWorkspaceService.class
-org/languagetool/lsp/TextEditCommand.class
-org/languagetool/lsp/LSPServer.class
-org/languagetool/lsp/LanguageToolLanguageServer$2.class
-org/languagetool/lsp/markdown/AnnotatedTextBuildingVisitor.class
-org/languagetool/lsp/LanguageToolLanguageServer.class
-org/languagetool/lsp/FullTextDocumentService.class
