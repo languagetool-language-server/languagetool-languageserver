@@ -14,8 +14,6 @@ import java.net.Socket;
 
 public class LSPServer {
   public static void main(String[] args) {
-    System.out.println("App.main");
-
     String port = args[0];
     try (Socket socket = new Socket("localhost", Integer.parseInt(port))) {
       InputStream in = socket.getInputStream();
