@@ -1,3 +1,8 @@
+// In memory of Adam Voss, July 11, 1991 - July 11, 2018
+// https://github.com/adamvoss
+// http://schluterbalikfuneralhome.com/obituary/adam-voss
+package org.languagetool.lsp;
+
 import org.eclipse.lsp4j.Position;
 import org.jetbrains.annotations.NotNull;
 

@@ -1,4 +1,7 @@
-package markdown;
+// In memory of Adam Voss, July 11, 1991 - July 11, 2018
+// https://github.com/adamvoss
+// http://schluterbalikfuneralhome.com/obituary/adam-voss
+package org.languagetool.lsp.markdown;
 
 import com.vladsch.flexmark.ast.Node;
 

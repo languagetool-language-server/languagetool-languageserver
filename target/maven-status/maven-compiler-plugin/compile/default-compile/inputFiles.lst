@@ -1,0 +1,7 @@
+/Users/dday/Projects/github.com/languagetool-language-server/languagetool-languageserver/src/main/java/org/languagetool/lsp/LanguageToolLanguageServer.java
+/Users/dday/Projects/github.com/languagetool-language-server/languagetool-languageserver/src/main/java/org/languagetool/lsp/FullTextDocumentService.java
+/Users/dday/Projects/github.com/languagetool-language-server/languagetool-languageserver/src/main/java/org/languagetool/lsp/TextEditCommand.java
+/Users/dday/Projects/github.com/languagetool-language-server/languagetool-languageserver/src/main/java/org/languagetool/lsp/LSPServer.java
+/Users/dday/Projects/github.com/languagetool-language-server/languagetool-languageserver/src/main/java/org/languagetool/lsp/NoOpWorkspaceService.java
+/Users/dday/Projects/github.com/languagetool-language-server/languagetool-languageserver/src/main/java/org/languagetool/lsp/markdown/AnnotatedTextBuildingVisitor.java
+/Users/dday/Projects/github.com/languagetool-language-server/languagetool-languageserver/src/main/java/org/languagetool/lsp/DocumentPositionCalculator.java
