@@ -1,11 +1,11 @@
 // In memory of Adam Voss, July 11, 1991 - July 11, 2018
 // https://github.com/adamvoss
 // http://schluterbalikfuneralhome.com/obituary/adam-voss
-package org.languagetool.lsp;
+package org.prosegrinder.languagetool.lsp;
 
 import com.vladsch.flexmark.ast.Document;
 import com.vladsch.flexmark.parser.Parser;
-import org.languagetool.lsp.markdown.AnnotatedTextBuildingVisitor;
+import org.prosegrinder.languagetool.lsp.markdown.AnnotatedTextBuildingVisitor;
 import org.eclipse.lsp4j.*;
 import org.eclipse.lsp4j.services.*;
 import org.eclipse.lsp4j.jsonrpc.messages.Either;

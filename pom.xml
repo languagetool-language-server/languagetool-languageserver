@@ -3,7 +3,7 @@
   xmlns="http://maven.apache.org/POM/4.0.0"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.languagetool</groupId>
+  <groupId>org.prosegrinder.languagetool</groupId>
   <artifactId>languagetool-lsp</artifactId>
   <version>0.0-SNAPSHOT</version>
   <packaging>jar</packaging>
@@ -14,19 +14,26 @@
     <timestamp>${maven.build.timestamp}</timestamp>
     <maven.build.timestamp.format>yyyy-MM-dd HH:mm</maven.build.timestamp.format>
     <checkstyle.version>2.17</checkstyle.version>
+    <languagetool.version>4.3</languagetool.version>
+    <lsp4j.version>0.6.0</lsp4j.version>
   </properties>
 
   <dependencies>
     <dependency>
       <groupId>org.languagetool</groupId>
       <artifactId>languagetool-core</artifactId>
-      <version>4.3</version>
+      <version>${languagetool.version}</version>
       <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.languagetool</groupId>
+      <artifactId>language-all</artifactId>
+      <version>${languagetool.version}</version>
     </dependency>
     <dependency>
       <groupId>org.eclipse.lsp4j</groupId>
       <artifactId>org.eclipse.lsp4j</artifactId>
-      <version>0.6.0</version>
+      <version>${lsp4j.version}</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -115,10 +122,13 @@
           <archive>
             <manifest>
               <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
-              <mainClass>org.languagetool.lsp.LSPServer</mainClass>
+              <mainClass>org.prosegrinder.languagetool.lsp.App</mainClass>
             </manifest>
             <manifestEntries>
+              <Class-Path>./</Class-Path>
               <Build-Date>${maven.build.timestamp}</Build-Date>
+              <ComponentVersion>${project.version}</ComponentVersion>
+              <Implementation-Date>${maven.build.timestamp}</Implementation-Date>
             </manifestEntries>
           </archive>
         </configuration>

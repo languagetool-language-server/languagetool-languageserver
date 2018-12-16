@@ -56,12 +56,12 @@ dependencies {
 }
 
 // Define the main class for the application
-mainClassName = 'org.languagetool.lsp.LSPServer'
+mainClassName = 'org.prosegrinder.languagetool.lsp.LSPServer'
 
 jar {
     manifest {
         attributes(
-                'Main-Class': 'org.languagetool.lsp.LSPServer'
+                'Main-Class': 'org.prosegrinder.languagetool.lsp.LSPServer'
         )
     }
 }
