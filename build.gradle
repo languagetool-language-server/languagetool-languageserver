@@ -15,13 +15,14 @@ buildscript {
     }
 }
 
-group 'adamvoss'
+group 'org.languagetool'
 version '0.0-SNAPSHOT'
 
 // Apply the java plugin to add support for Java
 apply plugin: 'java'
 apply plugin: 'idea'
 apply plugin: 'org.junit.platform.gradle.plugin'
+apply plugin: 'maven'
 
 // Apply the application plugin to add support for building an application
 apply plugin: 'application'
@@ -55,12 +56,12 @@ dependencies {
 }
 
 // Define the main class for the application
-mainClassName = 'App'
+mainClassName = 'org.languagetool.lsp.LSPServer'
 
 jar {
     manifest {
         attributes(
-                'Main-Class': 'App'
+                'Main-Class': 'org.languagetool.lsp.LSPServer'
         )
     }
 }
