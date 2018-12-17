@@ -15,8 +15,8 @@ buildscript {
     }
 }
 
-group 'org.languagetool'
-version '0.0-SNAPSHOT'
+group 'org.prosegrinder'
+version '4.3-EXPERIMENTAL'
 
 // Apply the java plugin to add support for Java
 apply plugin: 'java'
@@ -56,12 +56,12 @@ dependencies {
 }
 
 // Define the main class for the application
-mainClassName = 'org.prosegrinder.languagetool.languageserver.LSPServer'
+mainClassName = 'org.prosegrinder.languagetool.languageserver.App'
 
 jar {
     manifest {
         attributes(
-                'Main-Class': 'org.prosegrinder.languagetool.languageserver.LSPServer'
+                'Main-Class': 'org.prosegrinder.languagetool.languageserver.App'
         )
     }
 }
