@@ -3,8 +3,8 @@
   xmlns="http://maven.apache.org/POM/4.0.0"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.prosegrinder.languagetool</groupId>
-  <artifactId>languagetool-lsp</artifactId>
+  <groupId>org.prosegrinder</groupId>
+  <artifactId>languagetool-languagserver</artifactId>
   <version>0.0-EXPERIMENTAL</version>
   <packaging>jar</packaging>
 
@@ -82,7 +82,7 @@
           <archive>
             <manifest>
               <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
-              <mainClass>org.prosegrinder.languagetool.lsp.App</mainClass>
+              <mainClass>org.prosegrinder.languagetool.languageserver.App</mainClass>
               <addClasspath>true</addClasspath>
               <classpathPrefix>lib/</classpathPrefix>
             </manifest>
