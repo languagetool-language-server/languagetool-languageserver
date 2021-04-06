@@ -150,6 +150,7 @@ fabric.properties
 ## VS Code
 .classpath
 .project
+/.vscode
 
 
 ## Custom
